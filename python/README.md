@@ -1,4 +1,4 @@
-# gct431-2023
+# gct431
 Python Code repository for CTP431 Fundamentals of Computer Music
 
 
