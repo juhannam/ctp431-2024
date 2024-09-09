@@ -22,9 +22,10 @@ After you have installed conda, close any open terminals you might have. Then op
 
     python -m ipykernel install --user --name ctp431
 
-4. install librosa
+4. install librosa and lapack
 
     conda install -y -c conda-forge librosa
+    conda install conda-forge::liblapack
 
 5. Run Jupyter Notebook 
 
