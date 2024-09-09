@@ -24,7 +24,7 @@ After you have installed conda, close any open terminals you might have. Then op
 
 4. install librosa and lapack
 
-    conda install -y -c conda-forge librosa
+    conda install -y -c conda-forge librosa \
     conda install conda-forge::liblapack
 
 5. Run Jupyter Notebook 
