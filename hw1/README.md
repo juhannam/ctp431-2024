@@ -20,7 +20,7 @@ Plot the waveform, spectrum, and spectrogram of the provided musical instrument 
     - The onset of a sound differing notably from the sustained vibration
     - Inharmonicity
 
-Note that you can adjust the window size to change the time and frequency resolution.
+Note that you can adjust the window size to change the time/frequency resolutions of the spectrogram.
 
 ## Problem #2: Music (20 pts.)
 Plot the spectrogram of the provided music track (095_Coffee_House_10s) with Audacity. Analyze it while listening to the music. 
