@@ -1,4 +1,4 @@
-# Homework #1: Observing Sounds through the Lense of Fourier Analysis
+# Homework #1: Observing Sounds through the Lens of Fourier Analysis
 The goal of this homework assignment is to observe audio files using Fourier Transforms and match what you see with what you hear. 
 
 ## Due date and deliverables
