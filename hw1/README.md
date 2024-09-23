@@ -30,7 +30,7 @@ Plot the spectrogram of the provided music track (095_Coffee_House_10s) with Aud
 2. Verify your answer by separating the mixed track into individual sound sources. You can do this with Gaudio Studio, the AI-powered music source separation service (https://studio.gaudiolab.io/). Note that the free credit is limited to 10 minutes. 
 
 
-## Problem #3: Your choice of sound (30 pts.)
+## Problem #3: Your Choice of Sound (30 pts.)
 Now, you are going to analyze your own choice of sound. It can be a voice (e.g., speaking or singing), musical instrument, sound effects,everyday sound (e.g., birds, wind, walking, cars), or anything else. The length should be less than 10 seconds long. You can record the sound with your mobile phone or download it from the Internet.
 
 1. Why did you choose the sound?
