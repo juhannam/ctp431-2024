@@ -3,7 +3,7 @@
 The goal of this homework assignment is to create a music piece using basic sound synthesis units (oscillators, filters, and envelopes) without any audio samples. The length of the song should be around 10 seconds.  
 
 ## Due date and deliverables
-- **Oct 15, 11:59pm**
+- **Oct 16, 11:59pm (Extended)**
 - Deliverables: report (.pdf), source code (.ipynb), and audio file (.wav) 
 - Make a zip file and submit it to KLMS.
 
