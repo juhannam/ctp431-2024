@@ -4,7 +4,9 @@ The goal of this homework assignment is to create a music piece using basic soun
 
 ## Due date and deliverables
 - **Oct 15, 11:59pm**
-- Source code (.ipynb) and audio file (.wav): submit them to KLMS.
+- Deliverables: report (.pdf), source code (.ipynb), and audio file (.wav) 
+- Make a zip file and submit it to KLMS.
+
 
 ## Step #1: Make your own rhythm track (30pts)
 Modify the parameters of sound synthesis units in the <a href="https://github.com/juhannam/ctp431-2024/blob/main/python/04.%20Drum%20Machine.ipynb"> drum machine notebook </a>
