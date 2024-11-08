@@ -12,16 +12,16 @@ The goal of this homework is to design a real-time musical interaction system us
 # Baselines
 ## Practice #1:  Let’s play music with MIDI keyboard and Chuck
 You can use the provided MIDI keyboard (AKAI) or your own laptop keyboard.
-<img src="https://github.com/hanshounsu/ctp431-2024-private/blob/master/mapped_parameters.png?raw=true" height="600"/>
+<img src="https://github.com/hanshounsu/ctp431-2024-private/blob/main/mapped_parameters.png?raw=true" height="600"/>
 
 **Code Examples**
-1. <a href="https://github.com/hanshounsu/ctp431-2024-private/blob/master/poly-midi.ck"> poly-midi.ck </a>
+1. <a href="https://github.com/hanshounsu/ctp431-2024-private/blob/main/poly-midi.ck"> poly-midi.ck </a>
 - MIDI input : MIDI keyboard
 - Mapped parameters
     1. Joystick: Panning
     2. Pressure sensors: Oscillator on/off (Sine, Triangle, Square), Audio playback
     3. Knob: Volume, Low Pass Filter, High Pass Filter, Reverb (Mix), Decay length
-2. <a href="https://github.com/hanshounsu/ctp431-2024-private/blob/master/poly-key.ck"> poly-key.ck </a>
+2. <a href="https://github.com/hanshounsu/ctp431-2024-private/blob/main/poly-key.ck"> poly-key.ck </a>
 - MIDI input : Laptop keyboard (Letter keyboard)
 - Mapped parameters
     1. Number keys (0 ~ 9) : Audio playback, Oscillator on/off, Volume -/+, Low Pass Filter -/+, High Pass Filter -/+
@@ -31,14 +31,14 @@ Download and install the necessary software <a href="https://github.com/kylemcdo
 
 **Code Examples**
 1. OSC input examples
-    1. <a href="https://github.com/hanshounsu/ctp431-2024-private/blob/master/faceosc-single-input.ck"> faceosc-single-input.ck </a>
-    2. <a href="https://github.com/hanshounsu/ctp431-2024-private/blob/master/faceosc-multiple-inputs.ck"> faceosc-multiple-inputs.ck </a>
+    1. <a href="https://github.com/hanshounsu/ctp431-2024-private/blob/main/faceosc-single-input.ck"> faceosc-single-input.ck </a>
+    2. <a href="https://github.com/hanshounsu/ctp431-2024-private/blob/main/faceosc-multiple-inputs.ck"> faceosc-multiple-inputs.ck </a>
 2. Parameter control examples
-    1. <a href="https://github.com/hanshounsu/ctp431-2024-private/blob/master/faceosc-audiosynth-fm.ck"> faceosc-audiosynth-fm.ck </a> (sound synthesis):
+    1. <a href="https://github.com/hanshounsu/ctp431-2024-private/blob/main/faceosc-audiosynth-fm.ck"> faceosc-audiosynth-fm.ck </a> (sound synthesis):
         - Control the modulation frequency of FM synthesis by the user mouth width
-    2. <a href="https://github.com/hanshounsu/ctp431-2024-private/blob/master/faceosc-audioeffect-biquad.ck"> faceosc-audioeffect-biquad.ck </a> (audio effect):
+    2. <a href="https://github.com/hanshounsu/ctp431-2024-private/blob/main/faceosc-audioeffect-biquad.ck"> faceosc-audioeffect-biquad.ck </a> (audio effect):
         - Control the frequency parameter of bi-quad filter by the user mouth width
-    3. <a href="https://github.com/hanshounsu/ctp431-2024-private/blob/master/faceosc-gain.ck "> faceosc-gain.ck </a> (basic element):
+    3. <a href="https://github.com/hanshounsu/ctp431-2024-private/blob/main/faceosc-gain.ck "> faceosc-gain.ck </a> (basic element):
         - Control the gain of noise by the user mouth width
 
 # Perform live music with multi-modal input!
