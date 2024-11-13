@@ -2,14 +2,14 @@ SinOsc osc1 => ADSR env1 => NRev rev1 => dac;
 
 0.5::second => dur beat;
 
-0.15 => osc1.gain;
+0.4 => osc1.gain;
 (1::ms, beat / 4, 0, 1::ms) => env1.set;
 0.1 => rev1.mix;
 
 60 => int offset;
 0 => int position;
 
-[0, 4, 7, 12] @=> int major[];
+[0, 3, 7, 12] @=> int major[];
 
 while(true)
 {

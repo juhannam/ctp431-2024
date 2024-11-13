@@ -5,5 +5,5 @@ for(1000 => int i; i > 0; i--)
 {
     i => osc.freq;
     <<< i >>>;
-    9::ms => now;
+    3::ms => now;
 }

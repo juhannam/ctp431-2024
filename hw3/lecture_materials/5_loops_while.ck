@@ -2,7 +2,7 @@
 
 while(counter <= 10)
 {
-    500::ms => now;
+    200::ms => now;
     <<< counter >>>;
     counter + 1 => counter;
 }
