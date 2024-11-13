@@ -12,9 +12,9 @@ SinOsc osc => dac;
 0.25 => osc.gain;
 // @=> : "at-Chuck" operator
 // we do not need to give size of the array
-[110, 220, 440, 660, 770, 880, 1320] @=> int frequencies[];
+[110, 220, 440, 660, 770, 880, 1320] @=> int frequencies[]; // Hz
 
-[60, 62, 64, 65, 67, 69, 71, 72] @=> int pitches[];
+[60, 62, 64, 65, 67, 69, 71, 72] @=> int pitches[]; // MIDI pitch
 
 while(true)
 {
@@ -23,9 +23,9 @@ while(true)
     {
         // Std stands for the chuck standard library, contains several convenient methods
         // Std.mtof returns frequency when given MIDI pitches (mtof: MIDI to frequency)
-        // Std.mtof(pitches[i]) => osc.freq;
+        Std.mtof(pitches[i]) => osc.freq;
 
-        frequencies[i] => osc.freq;
+        // frequencies[i] => osc.freq;
 
         200::ms => now;
     }
