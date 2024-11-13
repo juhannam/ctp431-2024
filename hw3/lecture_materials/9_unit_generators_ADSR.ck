@@ -5,12 +5,12 @@ TriOsc osc1 => ADSR env1 => dac;
 TriOsc osc2 => ADSR env2 => dac;
 
 2::second => dur beat;
-// Setting ADSR : (A, D, S(0~1), R)
+// Setting ADSR : (A, D, S, R)
 (beat /2, beat /2, 0, 1::ms) => env1.set;
 (1::ms, beat /8, 0, 1::ms) => env2.set;
 
-0.1 => osc1.gain;
-0.05 => osc2.gain;
+0.2 => osc1.gain;
+0.1 => osc2.gain;
 
 [0,4,7,12] @=> int major[];
 [0,3,7,12] @=> int minor[];

@@ -56,7 +56,7 @@ fun void GoArp()
     }
 }
 
-spork ~ GoArp(); // start the GoArp function in a children shred
+spork ~ GoArp(); // start the GoArp function in a children thread
 
 beat * 4 => now; // send the time of the parent thred forwards
 

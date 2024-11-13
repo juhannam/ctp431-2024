@@ -5,7 +5,7 @@ SinOsc osc => ADSR env1 => NRev rev1 => dac; // original signal with built-in re
 env1 => Delay delay1 => dac; // delayed signal 
 delay1 => delay1; // feedback, delays again and again
 
-0.5 => rev1.mix; // ratio to mix original signal and reverb
+// 0.2 => rev1.mix; // ratio to mix original signal and reverb
 
 0.5::second => dur beat;
 (1::ms, beat/8, 0, 1::ms) => env1.set;

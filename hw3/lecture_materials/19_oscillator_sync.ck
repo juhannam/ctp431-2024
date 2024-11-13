@@ -1,12 +1,12 @@
 // Set up two sine wave oscillators and an ADSR envelope
 SinOsc mod1 => ADSR env1 => 
-SinOsc carrier => 
+SinOsc carrier => ADSR env2 =>
 dac => 
-WOut wave => 
+WvOut wave => 
 blackhole;
 
 // Set the WAV file name
-"test.wav" => wave.wavFilename;
+// "test.wav" => wave.wavFilename;
 
 // Set frequency and synchronization
 2 => carrier.sync;
@@ -17,5 +17,8 @@ blackhole;
 
 // Set up the ADSR envelope
 (1::ms, 2::second, 0, 1::ms) => env1.set;
+(1::ms, 2::second, 0, 1::ms) => env2.set;
 1 => env1.keyOn;     // Start the sound
-2::second => now;    // Play sound for 2 seconds
+1 => env2.keyOn;
+3::second => now;    // Play sound for 2 seconds
+
