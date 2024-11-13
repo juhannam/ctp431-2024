@@ -17,8 +17,8 @@ filename => guitar.read;
 // 0.5 => guitar.rate; 
 
 // plays backward
-// guitar.samples() -1 => guitar.pos; 
-// -1 => guitar.rate;
+guitar.samples() -1 => guitar.pos; 
+-1 => guitar.rate;
 
 
 7::second => now; 

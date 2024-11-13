@@ -12,8 +12,8 @@ me.dir() + "break2.wav" => string filename;
 <<< "Attempting to read file:", filename >>>;
 filename => fakeAmen.read;
 
-1.4 => float MAIN_RATE;
-second / (2 * MAIN_RATE) => dur beat;
+1.0 => float MAIN_RATE;
+second / (4 * MAIN_RATE) => dur beat;
 
 MAIN_RATE => fakeAmen.rate;
 

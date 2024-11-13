@@ -1,32 +1,16 @@
-// number of the device to open (see: chuck --probe)
-0 => int device;
+// set up audio chain
+SinOsc osc => ADSR env1 => NRev rev => dac;
+0.5 => osc.gain;
+(1::ms, 100::ms, 0.0, 1::ms) => env1.set;
+0.1 => rev.mix;
 
-// get command line
-if (me.args()) me.arg(0) => Std.atoi => device;
-
-// the midi event
-MidiIn min;
-// the message for retrieving data
+// get MIDI device input
+MidiIn midi;
 MidiMsg msg;
-
-// open the device
-if (!min.open(device)) me.exit();
-
-// print out device that was opened
-<<< "MIDI device:", min.num(), " -> ", min.name() >>>;
-
-// infinite time-loop
-// while (true) {
-//     // wait on the event 'min'
-//     min => now;
-
-//     // get the message(s)
-//     while ( min.recv(msg) )
-//     {
-//         // print out midi message
-//         <<< msg.data1, msg.data2, msg.data3 >>>;
-//     }
-// }
+0 => int device;
+if( me.args() ) me.arg(0) => Std.atoi => device;
+if ( !midi.open( device ) ) me.exit();
+<<< "MIDI device:", midi.num(), " -> ", midi.name() >>>;
 
 fun void PlayBeep(int key) {
     key => Std.mtof => osc.freq;

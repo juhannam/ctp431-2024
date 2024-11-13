@@ -1,6 +1,6 @@
-PulseOsc osc => dac;
+SinOsc osc => dac;
 
-0.2 => osc.gain;
+0.5 => osc.gain;
 
 [0,4,7] @=> int major[];
 [0,3,7] @=> int minor[];
