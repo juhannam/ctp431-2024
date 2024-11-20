@@ -2,7 +2,7 @@
 Your mission for the final project is making your own music web application. Here are some guidelines.
 
 ## Timeline
-- Week 13 : Team building (up to two students per each team) and Topic Selection
+- Week 13 : Team building (up to two students per each team) and topic selection
 - Week 13/14 : Meeting with Professor and/or TA
 - Week 16 : Final presentation (Dec 16, Mon)
 
@@ -23,10 +23,11 @@ You can find some examples that attract and inspire you in the followoing links
 - [Stanford Music 220a](https://ccrma.stanford.edu/courses/220a/)
 
 ## Step #2: Project Development
-Keep the following advices in mind
+Keep the following advices in mind:
 
 - Find similar projects on internet and study them 
-- Set you minimum goal and achieve it first 
+- Check the feasiblity of your project idea given the time constraint and your experience/skills 
+- Set a minimum goal and achieve it first 
 - Add your own flavor sonically or visually 
 
 
