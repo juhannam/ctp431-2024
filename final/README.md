@@ -5,6 +5,7 @@ Your mission for the final project is making your own music web application. Her
 - Week 13 : Team building (up to two students per each team) and topic selection
 - Week 13/14 : Meeting with Professor and/or TA
 - Week 16 : Final presentation (Dec 16, Mon)
+- Week 16 : Project website (Dec 20, Fri)
 
 ## Step #1: ideations and meeting with professor 
 Here are possible topics that you can choose for the project
@@ -21,6 +22,7 @@ You can find some examples that attract and inspire you in the followoing links
 - [GCT535 (2021)](https://www.youtube.com/playlist?list=PLTauV9F_sDE3y6hE7QsPWp5BRZqgHiYWy)
 - [GCT535 (2022)](https://www.youtube.com/playlist?list=PLTauV9F_sDE2bUFrw-rRmQYJuRkWQR9zg)
 - [Stanford Music 220a](https://ccrma.stanford.edu/courses/220a/)
+- [Stanford Music 256a](https://ccrma.stanford.edu/courses/256a/)
 
 ## Step #2: Project Development
 Keep the following advices in mind:
@@ -32,7 +34,7 @@ Keep the following advices in mind:
 
 
 ## Step #3: Final Presentation (Dec 16, Mon)
-Prepare 7-8 minute long presentation to present your final project. 
+Prepare 5-6 minute long presentation to present your final project. 
 
 - The main idea
 - Technical details
