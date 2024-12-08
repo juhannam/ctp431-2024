@@ -5,7 +5,7 @@ Your mission for the final project is making your own music web application. Her
 - Week 13 : Team building (up to two students per each team) and topic selection
 - Week 13/14 : Meeting with Professor and/or TA
 - Week 16 : Final presentation (Dec 16, Mon)
-- Week 16 : Project website (Dec 20, Fri)
+- Week 16 : Project website submission (Dec 20, Fri)
 
 ## Step #1: ideations and meeting with professor 
 Here are possible topics that you can choose for the project
